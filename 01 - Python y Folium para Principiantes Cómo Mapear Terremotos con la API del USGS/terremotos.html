@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf426d7fdd9e7c4bdfd14f9b7c23d11f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cf426d7fdd9e7c4bdfd14f9b7c23d11f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cf426d7fdd9e7c4bdfd14f9b7c23d11f = L.map(
+                "map_cf426d7fdd9e7c4bdfd14f9b7c23d11f",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8755f65817da380f62a77fd18b32476d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8755f65817da380f62a77fd18b32476d.addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+            var marker_38be64df7eafaa99442344a43b23d570 = L.marker(
+                [14.1128, -90.5191],
+                {}
+            ).addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+        var popup_d2c0d45882d9cf2e96d3b601aebda192 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce5c0d7d84bd24ee7fd037a1d564d921 = $(`<div id="html_ce5c0d7d84bd24ee7fd037a1d564d921" style="width: 100.0%; height: 100.0%;">Lugar: 7 km NW of Taxisco, Guatemala, Magnitud: 6.1</div>`)[0];
+                popup_d2c0d45882d9cf2e96d3b601aebda192.setContent(html_ce5c0d7d84bd24ee7fd037a1d564d921);
+            
+        
+
+        marker_38be64df7eafaa99442344a43b23d570.bindPopup(popup_d2c0d45882d9cf2e96d3b601aebda192)
+        ;
+
+        
+    
+    
+            var marker_ad8d2ce359fe917c0b2ef1e42011024d = L.marker(
+                [34.1116667, -117.3115],
+                {}
+            ).addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+        var popup_1c0d233aed072f6cf1a31e8179411d27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd1c5673c026b84fe80eb61aedebf467 = $(`<div id="html_bd1c5673c026b84fe80eb61aedebf467" style="width: 100.0%; height: 100.0%;">Lugar: 3 km SW of San Bernardino, CA, Magnitud: 4.24</div>`)[0];
+                popup_1c0d233aed072f6cf1a31e8179411d27.setContent(html_bd1c5673c026b84fe80eb61aedebf467);
+            
+        
+
+        marker_ad8d2ce359fe917c0b2ef1e42011024d.bindPopup(popup_1c0d233aed072f6cf1a31e8179411d27)
+        ;
+
+        
+    
+    
+            var marker_2b19081dfb5aaad254403284a62b016d = L.marker(
+                [-17.9961, 168.0457],
+                {}
+            ).addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+        var popup_51d276b6f3d310636851fe1445e97a91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cc07b70eb514bb66be0ff3cfbd397b5 = $(`<div id="html_5cc07b70eb514bb66be0ff3cfbd397b5" style="width: 100.0%; height: 100.0%;">Lugar: 40 km SW of Port-Vila, Vanuatu, Magnitud: 6.3</div>`)[0];
+                popup_51d276b6f3d310636851fe1445e97a91.setContent(html_5cc07b70eb514bb66be0ff3cfbd397b5);
+            
+        
+
+        marker_2b19081dfb5aaad254403284a62b016d.bindPopup(popup_51d276b6f3d310636851fe1445e97a91)
+        ;
+
+        
+    
+    
+            var marker_e68e463e7f80bb65a6e8c6618bd30986 = L.marker(
+                [41.2186, 78.724],
+                {}
+            ).addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+        var popup_930024e382e087b4817dfad2b7708111 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4331acd079214527ace4962dae2a10e = $(`<div id="html_f4331acd079214527ace4962dae2a10e" style="width: 100.0%; height: 100.0%;">Lugar: 122 km WNW of Aykol, China, Magnitud: 5.6</div>`)[0];
+                popup_930024e382e087b4817dfad2b7708111.setContent(html_f4331acd079214527ace4962dae2a10e);
+            
+        
+
+        marker_e68e463e7f80bb65a6e8c6618bd30986.bindPopup(popup_930024e382e087b4817dfad2b7708111)
+        ;
+
+        
+    
+    
+            var marker_8c848e70cd347e55fa6e29232ea42f5d = L.marker(
+                [41.2946, 78.6076],
+                {}
+            ).addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+        var popup_9c8d20bf558b0eacdb748052df596a49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_692d0474a55cc766c391b59f5292fa12 = $(`<div id="html_692d0474a55cc766c391b59f5292fa12" style="width: 100.0%; height: 100.0%;">Lugar: 126 km SSE of Kyzyl-Suu, Kyrgyzstan, Magnitud: 5.8</div>`)[0];
+                popup_9c8d20bf558b0eacdb748052df596a49.setContent(html_692d0474a55cc766c391b59f5292fa12);
+            
+        
+
+        marker_8c848e70cd347e55fa6e29232ea42f5d.bindPopup(popup_9c8d20bf558b0eacdb748052df596a49)
+        ;
+
+        
+    
+    
+            var marker_fe558b9b1aba30ca0d3679c393705a59 = L.marker(
+                [41.2689, 78.649],
+                {}
+            ).addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+        var popup_ad88cfde97f952bca2c7e968c1386432 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2baa1203507148d48d32e85e18ce4900 = $(`<div id="html_2baa1203507148d48d32e85e18ce4900" style="width: 100.0%; height: 100.0%;">Lugar: 129 km WNW of Aykol, China, Magnitud: 7</div>`)[0];
+                popup_ad88cfde97f952bca2c7e968c1386432.setContent(html_2baa1203507148d48d32e85e18ce4900);
+            
+        
+
+        marker_fe558b9b1aba30ca0d3679c393705a59.bindPopup(popup_ad88cfde97f952bca2c7e968c1386432)
+        ;
+
+        
+    
+    
+            var marker_9c8fe449b4edf76f409ca6c97281085c = L.marker(
+                [-7.2812, -71.4729],
+                {}
+            ).addTo(map_cf426d7fdd9e7c4bdfd14f9b7c23d11f);
+        
+    
+        var popup_66c213eab176469740aeb4809242ab48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79a13324a297a5f7f031a7a9439d6a79 = $(`<div id="html_79a13324a297a5f7f031a7a9439d6a79" style="width: 100.0%; height: 100.0%;">Lugar: 124 km NW of Tarauacá, Brazil, Magnitud: 6.6</div>`)[0];
+                popup_66c213eab176469740aeb4809242ab48.setContent(html_79a13324a297a5f7f031a7a9439d6a79);
+            
+        
+
+        marker_9c8fe449b4edf76f409ca6c97281085c.bindPopup(popup_66c213eab176469740aeb4809242ab48)
+        ;
+
+        
+    
+</script>
+</html>
