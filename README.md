@@ -13,7 +13,7 @@ Curso que agrupa todas las clases que hacen referencia a los fundamentos de Leaf
 > Código: Todo el código se encuentra en la raiz de este repositorio de Github
 
 * [Lección 1 - Python y Folium para Principiantes: Cómo Mapear Terremotos con la API del USGS](https://youtu.be/dMA9pYiwZh4)
-* 02 - Cómo Hacer un Mapa de Temperatura y Clima con Python y la API de OpenWeatherMap 🌍🌞
+* [Lección 2 - Cómo Hacer un Mapa de Temperatura y Clima con Python y la API de OpenWeatherMap](https://youtu.be/dQ153UjfMDY)
 * [Lección 3 - Transforma Direcciones en Mapas: Geocodificación con JavaScript, HERE Maps y Mapbox](https://youtu.be/2RATxl59X6E)
 
 ## Enlaces de interés
