@@ -15,6 +15,7 @@ Curso que agrupa todas las clases que hacen referencia a los fundamentos de Leaf
 * [Lección 1 - Python y Folium para Principiantes: Cómo Mapear Terremotos con la API del USGS](https://youtu.be/dMA9pYiwZh4)
 * [Lección 2 - Cómo Hacer un Mapa de Temperatura y Clima con Python y la API de OpenWeatherMap](https://youtu.be/dQ153UjfMDY)
 * [Lección 3 - Transforma Direcciones en Mapas: Geocodificación con JavaScript, HERE Maps y Mapbox](https://youtu.be/2RATxl59X6E)
+* [Lección 4 - Crea Rutas Óptimas con JavaScript y Leaflet: Tutorial con la API de LocationIQ](https://youtu.be/GwlFgWQsjdE)
 
 ## Enlaces de interés
 
@@ -22,6 +23,7 @@ Curso que agrupa todas las clases que hacen referencia a los fundamentos de Leaf
 * [Web oficial de Folium](https://python-visualization.github.io/folium/latest/)
 * [Web oficial de OpenWeatherMap](https://openweathermap.org/)
 * [Web oficial de Here](https://www.here.com/)
+* [Web oficial de LocationIQ](https://es.locationiq.com/)
 
 #### Puedes apoyar mi trabajo haciendo "☆ Star" en el repo o nominarme a "GitHub Star". ¡Gracias!
 
